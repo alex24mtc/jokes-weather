@@ -1,0 +1,43 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(198, 245, 229) !important;
+}
+.padre {
+    background: #c6f5e5;
+    height:100vh;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hijo {
+    background: rgb(116, 250, 205);
+    width: 1500px;
+    padding: 200px;
+  }
+
+  button{
+    font-weight: 700;
+    background-color: rgb(86, 138, 138);
+color: rgb(255, 255, 255);
+width:300px;
+margin-top: 50px !important;
+  }
+
+  #joke{
+    padding: 50px 0 0 0;
+    font-weight: bolder;
+    font-style: italic;
+    font-size:23px;
+    
+  }
+
+
+
